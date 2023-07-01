@@ -31,12 +31,11 @@ function cambios(){
     for(let y=0; y<colorear.length; y++){
       document.querySelectorAll('.box1')[y].style.backgroundColor=colorear[y];
     }
-    // document.querySelector('.box1').style.backgroundColor='orange'
-    
-    
   }
 }
 
 function effacer(){
-  document.querySelector('body').style.display='none'
+  document.querySelector('body').style.display='none';
+  
+
 }
