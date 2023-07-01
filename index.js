@@ -27,6 +27,7 @@ function cambios(){
     <div class="box1">box 1 </div>
     <div class="box1"> box 2</div>
     <div class="box1">box 3</div>
+    <div class="box1">box 4</div>
     </div>`);
     for(let y=0; y<colorear.length; y++){
       document.querySelectorAll('.box1')[y].style.backgroundColor=colorear[y];
